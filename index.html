@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ปิดจ๊อบ ตอบโจทย์ ได้ใจ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--y:#FFD400;--yl:#FFF7CC;--b:#171717;--g:#6b6b6b;--lg:#f3f3f3;--w:#fff;--bd:#d9d9d9}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Sarabun,sans-serif;background:#ececec;color:var(--b);line-height:1.7}
+button{font-family:inherit}
+.topbar{background:var(--b);color:#fff;padding:13px 20px;text-align:center;font-weight:600}
+.page{width:min(100%,900px);margin:auto;background:#fff;min-height:100vh}
+.hero{background:var(--y);padding:42px 28px 36px;text-align:center;border-bottom:5px solid var(--b)}
+.hero .icon{font-size:46px}.hero h1{font-size:clamp(30px,5vw,44px);line-height:1.2}.hero p{margin-top:10px;font-size:18px;font-weight:500}
+.content{padding:30px 24px 50px}
+.intro{background:var(--lg);border-left:6px solid var(--y);padding:20px;border-radius:10px;margin-bottom:30px}
+.intro strong{display:block;font-size:20px;margin-bottom:6px}
+h2{font-size:22px}.steps{display:grid;gap:10px;margin:14px 0 34px}
+.step{display:flex;gap:12px;align-items:flex-start}.step-number{min-width:30px;height:30px;background:var(--b);color:#fff;border-radius:50%;display:grid;place-items:center;font-weight:700}
+.case-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:18px}
+.case-card{border:2px solid var(--bd);border-radius:14px;padding:20px;background:#fff;text-align:left;cursor:pointer}
+.case-card:hover{border-color:var(--b);transform:translateY(-2px)}
+.case-number,.tag{display:inline-block;background:var(--y);color:var(--b);border-radius:999px;padding:3px 11px;font-weight:700}
+.case-card h3{font-size:21px;line-height:1.35;margin:8px 0}.case-card p{color:var(--g)}
+.case-page{display:none}.case-page.active{display:block}
+.back-button{background:none;border:0;font-size:16px;font-weight:600;cursor:pointer;margin-bottom:22px}
+.case-header{background:var(--b);color:#fff;border-radius:14px;padding:22px;margin-bottom:22px}
+.case-header h2{font-size:clamp(25px,4vw,34px);line-height:1.3;margin-top:8px}
+.section{margin-bottom:24px}.section-title{font-size:21px;font-weight:700;border-bottom:3px solid var(--y);padding-bottom:5px;margin-bottom:15px}
+.story{background:#fafafa;border:1px solid var(--bd);border-radius:12px;padding:20px}.story p{margin-bottom:12px}.story p:last-child{margin:0}
+.dialogue{margin:12px 0;padding:13px 16px;border-left:4px solid #333;background:var(--lg);border-radius:0 8px 8px 0}.dialogue strong{display:block}
+.question-box{background:var(--yl);border:2px solid var(--y);border-radius:12px;padding:22px;margin:26px 0}
+.big-question{font-size:23px;font-weight:700;line-height:1.45;margin-bottom:15px}.question-list{padding-left:22px}.question-list li{margin-bottom:7px}
+.hint{background:var(--lg);border-radius:12px;padding:20px}.hint h2{display:flex;gap:8px}.hint p{margin:7px 0}
+.goal{background:#fff;border:2px solid #333;border-radius:9px;padding:13px 16px;margin-top:12px;font-weight:600}
+.observer{border-top:1px solid var(--bd);margin-top:30px;padding-top:25px}.observer-list{padding-left:22px}.observer-list li{margin-bottom:9px}
+.footer-note{margin-top:30px;padding:16px;background:var(--b);color:#fff;border-radius:10px;text-align:center;font-weight:500}
+.small-note{color:var(--g);font-size:14px;margin-top:10px}
+@media(max-width:650px){.hero{padding:34px 20px 30px}.content{padding:24px 16px 40px}.case-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="topbar">กิจกรรมฝึกการสื่อสารเพื่อฟื้นฟูความเชื่อมั่นของลูกค้า</div>
+<main class="page">
+
+<section id="landing">
+<div class="hero"><div class="icon">🤝</div><h1>ปิดจ๊อบ ตอบโจทย์ ได้ใจ</h1><p>ฝึกสื่อสารเพื่อฟื้นฟูความเชื่อมั่นของลูกค้า</p></div>
+<div class="content">
+<div class="intro"><strong>กิจกรรมนี้ไม่ได้ฝึกให้เรา “พูดให้ถูก” อย่างเดียว</strong>
+แต่ฝึกให้เราสื่อสารระหว่างที่กำลังช่วยแก้ปัญหา เพื่อให้ลูกค้ารู้สึกว่า
+<strong>“มีคนรับผิดชอบ ฉันรู้ว่าจะเกิดอะไรขึ้นต่อ และฉันไม่ได้ถูกทิ้ง”</strong></div>
+
+<h2>วิธีทำกิจกรรม</h2>
+<div class="steps">
+<div class="step"><span class="step-number">1</span><div>เปิด CASE ที่กลุ่มของคุณได้รับมอบหมาย</div></div>
+<div class="step"><span class="step-number">2</span><div>อ่านสถานการณ์ แล้วช่วยกันคิดว่า <strong>ลูกค้ากำลังรู้สึกอะไร และต้องการอะไรจากเรา</strong></div></div>
+<div class="step"><span class="step-number">3</span><div>เตรียมตัวสำหรับการแสดงบทบาทสมมติ โดยคิดทั้ง <strong>คำพูดและภาษากาย</strong></div></div>
+<div class="step"><span class="step-number">4</span><div>ระหว่างการแสดง เพื่อนในกลุ่มสามารถช่วยกันคิดได้ แต่คนที่รับบทเป็นพนักงานต้องเป็นคนสื่อสารกับลูกค้าด้วยตัวเอง</div></div>
+<div class="step"><span class="step-number">5</span><div>หลังจบการแสดง ให้กลุ่มและผู้สังเกตการณ์ร่วมกันสะท้อนว่า อะไรทำให้ลูกค้ารู้สึกว่า <strong>“มีคนดูแล”</strong></div></div>
+</div>
+
+<h2>เลือก CASE</h2>
+<div class="case-grid">
+<button class="case-card" onclick="showCase(1)"><span class="case-number">CASE 01</span><h3>รถเสร็จแล้ว แต่ความเชื่อมั่นยังไม่เสร็จ</h3><p>ลูกค้าได้รับรถแล้ว แต่ยังมีความกังวลจากประสบการณ์ก่อนหน้า</p></button>
+<button class="case-card" onclick="showCase(2)"><span class="case-number">CASE 02</span><h3>ลูกค้ารอรถ แต่คำตอบยังไม่ชัด</h3><p>ลูกค้าต้องการความแน่นอนมากกว่าคำปลอบใจ</p></button>
+<button class="case-card" onclick="showCase(3)"><span class="case-number">CASE 03</span><h3>ลูกค้ากังวลเรื่องค่าใช้จ่าย</h3><p>ข้อมูลบางส่วนยังไม่ชัด และพนักงานต้องถามก่อนรับปาก</p></button>
+<button class="case-card" onclick="showCase(4)"><span class="case-number">CASE 04</span><h3>ปัญหาหลังรับรถที่ยังต้องหาข้อมูล</h3><p>ลูกค้ามีอารมณ์และความกังวล ขณะที่พนักงานยังมีข้อมูลไม่ครบ</p></button>
+</div>
+<p class="small-note">หมายเหตุ: ผู้แสดงเป็นลูกค้าอาจตอบสนองตามสถานการณ์จริงและเปิดข้อมูลเพิ่มเติมเมื่อพนักงานถามอย่างเหมาะสม</p>
+</div>
+</section>
+
+<!-- CASE TEMPLATE CONTENT -->
+<section id="case1" class="case-page"><div class="content"><button class="back-button" onclick="showLanding()">← กลับไปหน้าเลือก CASE</button>
+<div class="case-header"><span class="tag">CASE 01</span><h2>รถเสร็จแล้ว แต่ความเชื่อมั่นยังไม่เสร็จ</h2></div>
+<div class="section"><div class="section-title">สถานการณ์</div><div class="story">
+<p>เมื่อวาน <strong>คุณแอน</strong> นำรถเข้ามาเปลี่ยนผ้าเบรก วันนี้เธอกลับมารับรถตามเวลาที่แจ้งไว้</p>
+<div class="dialogue"><strong>คุณแอน:</strong> “พี่มารับรถแล้วค่ะ แต่พี่ขอถามหน่อยนะคะ หลังจากครั้งก่อนพี่ก็ยังรู้สึกไม่ค่อยมั่นใจเท่าไหร่”</div>
+<p>คุณแอนมองรถและเอกสารสลับกัน สีหน้าดูระแวงเล็กน้อย</p>
+<div class="dialogue"><strong>คุณแอน:</strong> “ครั้งนี้พี่อยากแน่ใจจริง ๆ ค่ะว่ารถเรียบร้อยแล้ว พี่ไม่อยากเอากลับไปแล้วต้องมีปัญหาอีก”</div>
+<p>เธอไม่ได้ขึ้นเสียง แต่ยังยืนรอฟังคำอธิบาย และยังไม่แสดงท่าทีว่าจะรีบกลับ</p>
+</div></div>
+<div class="question-box"><div class="big-question">คุณจะใช้คำพูดและภาษากายอย่างไร เพื่อปิดช่องว่างในใจของลูกค้า?</div><ul class="question-list"><li>ลูกค้ากำลังกังวลเรื่องอะไร?</li><li>ลูกค้าต้องการ “ความมั่นใจ” เรื่องอะไร?</li><li>คุณจะสื่อสารอย่างไรให้ลูกค้ารู้ว่า มีคนรับผิดชอบและรู้ว่าจะเกิดอะไรขึ้นต่อ?</li></ul></div>
+<div class="hint"><h2>💡 HINT</h2><p>คุณไม่จำเป็นต้องรีบพูดให้ลูกค้าสบายใจทันที</p><p>ลองคิดก่อนว่า ลูกค้าต้องการอะไรจากเรา เพื่อให้รู้สึกว่า <strong>“เรื่องของฉันมีคนดูแล”</strong></p><div class="goal">เป้าหมาย: รับรู้ → ทำให้ชัด → บอกสิ่งที่จะทำ → บอกสิ่งที่จะเกิดขึ้นต่อ</div></div>
+<div class="observer"><h2>👀 สำหรับเพื่อนที่สังเกตการณ์</h2><ol class="observer-list"><li>พนักงานทำอะไรที่ทำให้ลูกค้ารู้สึกว่า “มีคนดูแล”?</li><li>มีคำพูดหรือภาษากายตรงไหนที่ทำให้ลูกค้ามั่นใจขึ้น?</li><li>มีช่วงไหนที่พนักงานเกือบรับปากเกินกว่าสิ่งที่ตัวเองควบคุมได้?</li></ol></div>
+<div class="footer-note">หลังจบการแสดง: ลองถามกันว่า “ถ้าเป็นเรา เราจะพูดหรือทำอะไรต่างจากนี้?”</div>
+</div></section>
+
+<section id="case2" class="case-page"><div class="content"><button class="back-button" onclick="showLanding()">← กลับไปหน้าเลือก CASE</button>
+<div class="case-header"><span class="tag">CASE 02</span><h2>ลูกค้ารอรถ แต่คำตอบยังไม่ชัด</h2></div>
+<div class="section"><div class="section-title">สถานการณ์</div><div class="story">
+<p><strong>คุณฝน</strong> นำรถเข้ามารับบริการและได้รับแจ้งว่าจะเสร็จช่วงบ่าย เธอกลับมาที่สาขาตามเวลาที่แจ้ง แต่รถยังไม่พร้อมส่งมอบ</p>
+<div class="dialogue"><strong>คุณฝน:</strong> “พี่มารับรถตามเวลาที่บอกไว้ค่ะ แต่ตอนนี้ยังไม่ได้รถอีกเหรอคะ?”</div>
+<p>พนักงานตรวจสอบกับช่างแล้วแจ้งว่ากำลังตรวจสอบขั้นสุดท้าย แต่ยังบอกเวลาที่แน่นอนไม่ได้</p>
+<div class="dialogue"><strong>คุณฝน:</strong> “พี่ต้องไปรับลูกค่ะ ถ้าพี่ยังไม่รู้ว่าจะได้รถกี่โมง พี่ก็วางแผนอะไรไม่ได้เลย”</div>
+<p>คุณฝนมองนาฬิกาหลายครั้ง สีหน้าเริ่มกังวลและหงุดหงิดขึ้น</p>
+</div></div>
+<div class="question-box"><div class="big-question">คุณจะใช้คำพูดและภาษากายอย่างไร เพื่อปิดช่องว่างในใจของลูกค้า?</div><ul class="question-list"><li>ลูกค้าต้องการ “คำตอบ” หรือ “ความมั่นใจ” เรื่องอะไร?</li><li>คุณรู้อะไรแล้ว และยังมีอะไรที่ยังไม่รู้?</li><li>คุณจะบอกสิ่งที่จะทำต่ออย่างไรโดยไม่รับปากเกินกว่าข้อมูลที่มี?</li></ul></div>
+<div class="hint"><h2>💡 HINT</h2><p>อย่ารีบให้คำตอบเพียงเพราะลูกค้าต้องการคำตอบ</p><p>ถ้ายังไม่รู้ ให้ทำให้ลูกค้ารู้ว่า <strong>เรากำลังทำอะไรเพื่อให้ได้คำตอบ</strong></p><div class="goal">เป้าหมาย: ทำให้ลูกค้ารู้ว่า เรื่องของเขามีคนรับผิดชอบ แม้คำตอบสุดท้ายจะยังไม่พร้อม</div></div>
+<div class="observer"><h2>👀 สำหรับเพื่อนที่สังเกตการณ์</h2><ol class="observer-list"><li>พนักงานรับรู้ความกังวลของลูกค้าหรือไม่?</li><li>พนักงานสื่อสารสิ่งที่ทำอยู่และสิ่งที่จะเกิดขึ้นต่อชัดเจนหรือไม่?</li><li>มีคำพูดไหนที่อาจทำให้ลูกค้าคาดหวังเกินจริง?</li></ol></div>
+<div class="footer-note">หลังจบการแสดง: “ถ้าเป็นเรา เราจะพูดหรือทำอะไรต่างจากนี้?”</div>
+</div></section>
+
+<section id="case3" class="case-page"><div class="content"><button class="back-button" onclick="showLanding()">← กลับไปหน้าเลือก CASE</button>
+<div class="case-header"><span class="tag">CASE 03</span><h2>ลูกค้ากังวลเรื่องค่าใช้จ่าย</h2></div>
+<div class="section"><div class="section-title">สถานการณ์</div><div class="story">
+<p><strong>คุณวุฒิ</strong> มารับรถหลังจากเข้ารับบริการ เมื่อเห็นยอดค่าใช้จ่าย เขามีสีหน้าไม่พอใจ</p>
+<div class="dialogue"><strong>คุณวุฒิ:</strong> “ตอนแรกพี่เข้าใจว่ายอดประมาณหนึ่งนะครับ ทำไมตอนนี้มันเพิ่มขึ้นเยอะขนาดนี้?”</div>
+<p>พนักงานเปิดรายการค่าใช้จ่ายและอธิบายว่ามีงานเพิ่มเติมจากการตรวจพบของช่าง</p>
+<div class="dialogue"><strong>คุณวุฒิ:</strong> “พี่ไม่แน่ใจนะครับว่าพี่เคยตกลงเรื่องนี้หรือเปล่า”</div>
+<p>น้ำเสียงของคุณวุฒิเริ่มแข็งขึ้น แต่เขายังพร้อมฟัง หากพนักงานสามารถอธิบายข้อมูลให้ชัดเจนได้</p>
+</div></div>
+<div class="question-box"><div class="big-question">คุณจะใช้คำพูดและภาษากายอย่างไร เพื่อปิดช่องว่างในใจของลูกค้า?</div><ul class="question-list"><li>ลูกค้ากำลังไม่พอใจ “ราคา” หรือกำลังกังวลว่า “ตัวเองถูกตัดสินใจแทน”?</li><li>คุณมีข้อมูลเพียงพอที่จะรับปากอะไรหรือยัง?</li><li>คุณควรถามอะไรเพิ่มเติมก่อนจะให้คำตอบ?</li></ul></div>
+<div class="hint"><h2>💡 HINT</h2><p><strong>ข้อมูลบางอย่างยังไม่ถูกเปิดเผยทั้งหมด</strong></p><p>ถ้าต้องการรู้ว่าลูกค้าต้องการอะไรจริง ๆ อย่าเพิ่งรีบสรุปแทนลูกค้า</p><p>ลอง <strong>ถาม → ฟัง → ทำความเข้าใจ → แล้วจึงสื่อสาร</strong></p><div class="goal">เป้าหมาย: อย่ารับปากในสิ่งที่ยังไม่มีข้อมูลเพียงพอ</div></div>
+<div class="observer"><h2>👀 สำหรับเพื่อนที่สังเกตการณ์</h2><ol class="observer-list"><li>พนักงานถามเพื่อให้เข้าใจปัญหาจริงหรือไม่?</li><li>พนักงานฟังสิ่งที่ลูกค้าพูดหรือรีบอธิบายทันที?</li><li>หลังจากได้ข้อมูลเพิ่มแล้ว พนักงานปรับวิธีสื่อสารหรือไม่?</li></ol></div>
+<div class="footer-note">จำไว้: ถ้ายังไม่รู้ อย่าเพิ่งรับปาก — ถามก่อน</div>
+</div></section>
+
+<section id="case4" class="case-page"><div class="content"><button class="back-button" onclick="showLanding()">← กลับไปหน้าเลือก CASE</button>
+<div class="case-header"><span class="tag">CASE 04</span><h2>ปัญหาหลังรับรถที่ยังต้องหาข้อมูล</h2></div>
+<div class="section"><div class="section-title">สถานการณ์</div><div class="story">
+<p><strong>คุณก้อง</strong> โทรกลับมาที่สาขาหลังจากนำรถไปรับบริการเมื่อวาน เขาบอกว่ารถมีอาการผิดปกติบางอย่าง</p>
+<div class="dialogue"><strong>คุณก้อง:</strong> “พี่เพิ่งเอารถไปทำมาเองนะครับ แล้ววันนี้มันมีเสียงอีกแล้ว พี่ไม่อยากต้องเสียเวลาเข้าออกหลายรอบ”</div>
+<p>น้ำเสียงของคุณก้องแสดงความไม่พอใจและความกังวล เขายังต้องใช้รถต่อในวันนี้</p>
+<div class="dialogue"><strong>คุณก้อง:</strong> “พี่ก็ยังต้องใช้รถนะครับ ไม่รู้ว่าจะทำยังไงเหมือนกัน”</div>
+<p>พนักงานยังไม่มีข้อมูลเพียงพอที่จะบอกสาเหตุของอาการได้</p>
+</div></div>
+<div class="question-box"><div class="big-question">คุณจะใช้คำพูดและภาษากายอย่างไร เพื่อปิดช่องว่างในใจของลูกค้า?</div><ul class="question-list"><li>ลูกค้ากังวลเรื่องอาการของรถ หรือกังวลว่าจะต้องเสียเวลาอีก?</li><li>มีข้อมูลอะไรที่คุณยังจำเป็นต้องรู้ก่อนจะให้คำแนะนำ?</li><li>คุณจะสื่อสารอย่างไรให้ลูกค้ารู้ว่า คุณกำลังช่วยเขาอยู่?</li></ul></div>
+<div class="hint"><h2>💡 HINT</h2><p><strong>อย่ารีบให้คำมั่นสัญญาก่อนที่คุณจะเข้าใจสถานการณ์</strong></p><p>หากข้อมูลยังไม่ครบ ให้ใช้คำถามเพื่อค้นหาข้อมูลที่จำเป็นก่อน</p><p>ลูกค้าอาจไม่ได้ต้องการให้คุณ “แก้ทุกอย่างทันที” แต่อยากรู้ว่า <strong>ใครกำลังดูแลเรื่องนี้ และขั้นตอนต่อไปคืออะไร</strong></p><div class="goal">เป้าหมาย: ถามให้เข้าใจ → ฟังให้ครบ → สื่อสารสิ่งที่ทำได้จริง → ทำให้ลูกค้ารู้ว่าจะเกิดอะไรขึ้นต่อ</div></div>
+<div class="observer"><h2>👀 สำหรับเพื่อนที่สังเกตการณ์</h2><ol class="observer-list"><li>พนักงานถามข้อมูลที่จำเป็นก่อนตัดสินใจหรือไม่?</li><li>พนักงานทำให้ลูกค้ารู้สึกว่ามีคนรับผิดชอบหรือไม่?</li><li>พนักงานรับปากเฉพาะสิ่งที่ตัวเองควบคุมได้หรือไม่?</li></ol></div>
+<div class="footer-note">หลังจบการแสดง: “คำพูดไหนทำให้ลูกค้ารู้สึกว่าเขาไม่ได้ถูกทิ้ง?”</div>
+</div></section>
+
+</main>
+<script>
+function showCase(n){
+ document.getElementById('landing').style.display='none';
+ document.querySelectorAll('.case-page').forEach(p=>p.classList.remove('active'));
+ document.getElementById('case'+n).classList.add('active');
+ window.scrollTo({top:0,behavior:'smooth'});
+}
+function showLanding(){
+ document.querySelectorAll('.case-page').forEach(p=>p.classList.remove('active'));
+ document.getElementById('landing').style.display='block';
+ window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
+</body>
+</html>
